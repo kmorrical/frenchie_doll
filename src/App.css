@@ -1,16 +1,15 @@
 .App {
   text-align: center;
+  background-color: mintcream;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+  background-color: mintcream;
+  height: 650px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -18,8 +17,52 @@
   color: white;
 }
 
+.imgDiv{
+  position: relative;
+}
+
+.myFont {
+  height: 100px;
+  width: auto;
+  padding-right: 30px;
+}
+
+.frenchie {
+  height: 500px;
+  width: auto;
+  position: absolute;
+  left: 400px;
+
+}
+
+.row {
+  backgroundcolor: mintcream;
+  margin-bottom: 100px;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.pastel1 {
+  background-color: paleturquoise;
+}
+
+.pastel2 {
+  background-color: mistyrose;
+}
+
+.box {
+  border: aquamarine solid 2px;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: aliceblue;
+
+}
+
+.myContainer {
+   margin-bottom: 100px;
 }
 
 @keyframes App-logo-spin {
